@@ -26,7 +26,7 @@ username:meti password:44444444
 
 
 
-Admin page was added on the front end. This page can only be accessed by the admin using the username and password above.
+Admin page was added on the front end. This page can only be accessed by the admins using the username and password above.
 The admin can cause change to events(update,delete,read,create) 
 -used fetch api and bootstrap(script.js) to connect the admin page to the backend "backend-event". 
 
