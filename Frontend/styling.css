@@ -1,0 +1,269 @@
+/*COMMON FOR ALL*/
+*{
+  box-sizing: border-box;
+  color: rgb(189, 234, 234);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sticky {
+    
+    position: sticky;
+    top: 0px;
+    left:0px;
+    
+    margin-left: -10px;
+    margin-top: -10px;
+  
+    max-height: 8em;
+   
+    z-index: 3;
+    background-color: #13151a;
+    display: flex;
+
+  }
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+   
+    margin-left: -10px;
+    margin-bottom: -50px;
+    
+    min-width: auto;
+    background-color: #13151a;
+}
+.logo{
+     justify-content: left;
+      margin-top: 0px;
+      height: 80%;
+      flex: 1 1 33%;
+}
+.find{
+  padding-left: 14px;
+}
+nav ul{
+      list-style-type: none;
+      margin-top: 70px;
+      padding-top:0;
+      color: rgb(12, 123, 160);
+      justify-content:right; 
+      flex: 1 1 33%;
+      padding-left: 10PX;
+     
+  } 
+
+/*homepage*/
+.homepagetable{
+  
+  color:rgb(6, 10, 6);
+  display: grid;
+  grid-gap: 10px;
+  column-gap: 0px;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+.homepagetable p{
+  text-align: inherit;
+}
+/*search bar*/
+.search-container {
+    margin-top: 30px;;
+    justify-content:center;
+    flex: 1 1 33%;
+  
+  }
+.input-search{
+
+    border: 3px;
+    border-radius: 4px;
+    color: #28292d;
+    z-index: 1;
+  
+  }
+.submitbut{
+  
+  color: black;
+  background-color: #45f3ff ;
+  height: 20px;
+  width: 60px;
+}
+.lists{
+  display: none;
+ }
+
+/* When the input field gets focus, 
+		change its width to 100% */
+
+
+a{
+  color:   #45f3ff;
+  text-decoration: none;
+  padding: 3px;
+ 
+}
+
+/*body except aboutus page*/
+.x{
+ 
+ 
+ background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXMYHa9rpoXHbdVEyChavoMtIh24ChN1w0qg&usqp=CAU);
+ background-color: #28292d;
+ background-size: cover;
+ background-repeat:none ;
+ margin: 0;
+
+}
+/*artstable*/
+.artstable{
+  padding: 30px 20px;
+ 
+  
+
+}
+/*about us*/
+.about{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXMYHa9rpoXHbdVEyChavoMtIh24ChN1w0qg&usqp=CAU);
+  margin: 0;
+  background-size: cover;
+  background-repeat:none ;
+  clear:right;
+  overflow: auto;
+ 
+  background-color: #28292d;
+  
+}
+.about p{
+  text-align:inherit;
+}
+
+.Oae{
+  color:black;
+}
+
+.aboutvideo{
+  display: grid;
+  align-self: right;
+  float:right;
+  max-width:480px;
+  max-height:250px;
+  position: relative;
+  left:0;
+  margin-top: -70px;  
+}
+
+.aboutaudio{
+  float:right;
+}
+/*login and signup*/
+
+.box{
+  margin-top: 25px;
+  display: grid;
+
+  position: fixed;
+  left: 12%;
+  
+  width: 430px;
+  height: 420px;
+  background: #1c1c1c;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.box2{
+  margin-top: 20px;
+ 
+
+  position: fixed;
+  left: 12%;
+ 
+  width: 432px;
+  height: 520px;
+  background: #1c1c1c;
+  border-radius: 8px;
+  overflow: auto;
+}
+.form{
+  
+  position: absolute;
+  inset: 2px;
+  border-radius: 8px;
+  background-color: #28292d;
+  z-index: 1;
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: column;
+
+}
+.form h3{
+  color: #45f3ff;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 1px;
+}
+.inputbox, .inputbox2{
+  position: relative;
+  width: 300px;
+  margin-top: 25px;
+}
+.inputbox input, .inputbox2 input{
+  position: relative;
+  width: 100%;
+  padding: 20px 10px 10px;
+  background: transparent;
+}
+/*sign up*/
+.inputboxsign input, .inputbox2 input{
+  position: relative;
+  width: 100%;
+  padding: 10px 10px 10px;
+  background: transparent;
+}
+.inputboxsign{
+  position: relative;
+  width: 300px;
+  margin-top: 18px;
+}  
+
+.links{
+  position: relative;
+  left: 30%;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  
+
+}
+.submitbutton{
+  color: black;
+  background-color: #45f3ff ;
+  cursor: pointer;
+  width: 240px;
+  position: relative;
+  left:30px;
+}
+/*classes*/
+.classlist h4,p{
+  text-align:center;
+}
+
+/* sightseeing*/
+.sslist{
+  text-align:center;
+ 
+}
+.sslist h3,p{
+  padding-top: 2px;
+  text-align:center;
+}
+.bazzar p{
+  padding-top: 2px;
+  text-align:center;
+}
+/*class and sightseeing*/
+
+.cc, .dc, .oc, .hike,.vhp, .tas,.bea, .gec, .ib{
+  border: 2px solid #45f3ff;
+  padding: 40px;
+  border-radius: 8px;
+  width: 60%;
+  margin-left: 15%;
+
+}
