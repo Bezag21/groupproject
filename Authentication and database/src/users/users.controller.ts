@@ -13,4 +13,8 @@ export class UsersController {
     index(): Promise<Users[]> {
       return this.usersService.findAll();
     }    
+    @Post()
+    create(user: Users): Promise<Users> {
+      return this.usersService.create(user);
+  }
 }
