@@ -41,7 +41,13 @@ For the database we used relational database because of its organization and for
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------Feach
-REST APIs provide a variety of functions, such as creating, reading, updating, and deleting data, as well as authentication and authorization. It is important to use TLS for security and to ensure that authentication and authorization are best practices.
+
+
+
+
+REST APIs provide a variety of functions, such as creating, reading, updating, and deleting data,
+as well as authentication and authorization. It is important to use TLS for security and to ensure 
+that authentication and authorization are best practices.
 
 
 
