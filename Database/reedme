@@ -2,3 +2,10 @@ what is the function of database
 Database functions in REST APIs help to facilitate the storage and retrieval of information. 
 This includes adding, updating, deleting data, running queries, and connecting to other APIs. 
 It is important to use TLS for security and to ensure that authentication and authorization are best practices.
+the data base is used SQL type
+Nest is database agnostic, allowing you to easily integrate with any SQL or NoSQL database. You have a number of 
+options available to you, depending on your preferences. At the most general level, connecting Nest to a database 
+is simply a matter of loading an appropriate Node.js driver for the database, just as you would with Express or Fastify.
+;;;;,,,,,,,,,,,,,,,
+it containes admin username , id  , password
+
