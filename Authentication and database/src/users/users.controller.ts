@@ -1,3 +1,4 @@
+import { Post, Put } from '@nestjs/common';
 import { Controller, Get } from '@nestjs/common';
 import { Users} from './users.entity';
 import { UsersService } from './users.service';
