@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
       <!--<link rel="stylesheet" type="text/css" href="styling.css" />-->
+         <script> src="valdiateuser" </script>
         <meta name="descripition" content="EVENTY-Login" >
 </head>
 
@@ -77,8 +78,10 @@ function login(){
     const username = document.getElementById("username").value;
     
     const password = document.getElementById("password").value;
-  
-      if(username==""){
+       if ((username =="beza" && password=="00000000") ||  (username =="beti" && password=="11111111" ) ||  (username =="biftu" && password=="22222222" )||  (username =="birhan" && password=="33333333" )||  (username =="meti" && password== "44444444" )){
+         window.location.href = "admin.html";
+               
+      else if(username==""){
         alert("No username entered");
        
       }else if(password==""){
