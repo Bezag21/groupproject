@@ -2,29 +2,7 @@
 
 # groupproject
 
-
-
-Birhan Aschalew........UGR/9050/13
-
-
-
-
-Betelhim Yigezaw......UGR/0874/13
-
-
-
-Bezawit Getaneh.......UGR/8906/12
-
-
-
-Biftu Shibbire.............UGR/8027/13
-
-
-
-
-
-
-Meti Guda..................UGR/7880/13              
+        
 
 About Project
 
@@ -55,3 +33,40 @@ The admin can cause change to events(update,delete,read,create)
 The login page authenticates users and users sign up info is stored and fetched as a user tries to login.
 
 For the database we used relational database because of its organization and for easier retrieval of user info.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Birhan Aschalew........UGR/9050/13
+
+
+
+
+Betelhim Yigezaw......UGR/0874/13
+
+
+
+Bezawit Getaneh.......UGR/8906/12
+
+
+
+Biftu Shibbire.............UGR/8027/13
+
+
+
+
+
+
+Meti Guda..................UGR/7880/13      
